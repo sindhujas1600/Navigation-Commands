@@ -1,6 +1,6 @@
 package navigationCommands;
 
-
+//import the required libraries
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -59,26 +59,26 @@ public class locatingElements {
 	}
 	
 	@Test
-	public void navigateBack()
+	public void navigateBack()        //method to naviagte back
 	{
 		driver.navigate().back();
 	}
 	
 	@Test
-	public void navigateForward()
+	public void navigateForward()        //method to navigate forward
 	{
 		driver.navigate().forward();
 	}
 	
 	@Test
-	public void navigateRefresh()
+	public void navigateRefresh()        //method to refresh the page
 	{
 		driver.navigate().refresh();
 		//throw new SkipException("This method is skipped deliberately");
 	}
 	
 	@AfterSuite
-	public void closeBrowser()
+	public void closeBrowser()          //method to close the browser
 	{
 		driver.close();
 	}	

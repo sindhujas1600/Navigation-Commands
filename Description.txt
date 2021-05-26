@@ -1,0 +1,26 @@
+Problem Statement:
+
+1) Identify navigation features from the window
+
+2) Perform Back, Refresh, URL and forward through navigation
+
+____________________________________________________
+
+Suggested site: https://google.com
+
+____________________________________________________
+Detailed Description:
+
+Launch the browser
+Enter the URL, https://google.com
+Enter the value in search or Edit box "Selenium Automation"
+Click on Search or press Enter
+Search Result will display
+Click on Back arrow button
+Same Google Page will appear
+Click on Forward arrow button
+Redirect the page
+Close the browser
+
+____________________________________________________
+

@@ -6,7 +6,9 @@ public class mainMethod extends locatingElements {
 		
 		try
 		{
-			mainMethod object = new mainMethod();
+			mainMethod object = new mainMethod();    //creating object for implementing methods
+			
+			//calling all the methods
 			object.getDriver();
 			object.navigateBack();
 			object.navigateForward();
